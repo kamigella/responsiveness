@@ -1,6 +1,6 @@
-div{
+/*div{
     display: none;
-}
+}*/
 
 @media (max-width: 480px) {
     body {
@@ -28,12 +28,8 @@ div{
         font-size: medium;
     }
 
-    div {
-        display: flex;
-    }
-
     #smart {
-        width: 63%;
+        width: 67%;
     }
 
     #medium {
