@@ -6,9 +6,15 @@ div{
     body {
       background-color: red;
     }
+
     #small {
-        display: block;
+        /*display: block*/
         font-size: small;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -18,20 +24,40 @@ div{
     }
 
     #medium {
-        display: block;
+        /*display: block;*/
         font-size: medium;
     }
-}
 
+    div {
+        display: flex;
+    }
+
+    #smart {
+        width: 63%;
+    }
+
+    #medium {
+        width: 33%;
+    }
+
+    #large {
+        width: 100%;
+    }
+}
 
 @media (min-width: 1024px){
     body {
       background-color: blue;
       font-size: large;
     }
-
+    
     #large {
-        display: block;
+        /*display: block;*/
+        font-size: large;
+    }
+
+    div {
+        display: flex;
     }
 }
 
